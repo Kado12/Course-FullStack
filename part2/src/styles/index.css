@@ -1,0 +1,36 @@
+h1 {
+  color: #007a00;
+  font-style: italic;
+}
+
+li {
+  color: #6a6a6a;
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.note {
+  color: #6f6f6f;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.error-notification {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.phonebook-notification {
+  background: lightgrey;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid #163bdf;
+}

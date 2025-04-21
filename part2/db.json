@@ -1,0 +1,26 @@
+{
+  "notes": [
+    {
+      "id": "9328",
+      "content": "Node JS is very easy",
+      "important": false
+    },
+    {
+      "id": "0508",
+      "content": "React JS is awesome",
+      "important": true
+    },
+    {
+      "id": "441d",
+      "content": "HTML and CSS",
+      "important": true
+    }
+  ],
+  "persons": [
+    {
+      "id": "35fb",
+      "name": "Gonzalo Sotelo",
+      "number": 123
+    }
+  ]
+}
