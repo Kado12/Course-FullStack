@@ -2,7 +2,7 @@ import axios from 'axios'
 const baseUrl = 'http://localhost:3001/api/notes'
 
 export type Note = {
-  id: number
+  id: string
   content: string
   important: boolean
 }
@@ -16,7 +16,7 @@ const create = async (newObject: Omit<Note, 'id'>) => {
   return axios.post(baseUrl, newObject)
 }
 
-const update = async (id: number, newObject: Partial<Note>) => {
+const update = async (id: string, newObject: Partial<Note>) => {
   return axios.put(`${baseUrl}/${id}`, newObject)
 }
 

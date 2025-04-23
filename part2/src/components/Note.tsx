@@ -1,10 +1,10 @@
 type NoteProps = {
   note: {
-    id: number
+    id: string
     content: string
     important: boolean
   },
-  toggleImportance: (id: number) => void
+  toggleImportance: (id: string) => void
 }
 
 const Note = ({ note, toggleImportance }: NoteProps) => {

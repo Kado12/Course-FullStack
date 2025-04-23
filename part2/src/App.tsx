@@ -40,7 +40,7 @@ const App = () => {
     setNewNote(event.target.value)
   }
 
-  const toggleImportance = async (id: number) => {
+  const toggleImportance = async (id: string) => {
     const note = allNotes.find(n => n.id === id)
     if (!note) {
       console.error(`Note with id ${id} not found`);
